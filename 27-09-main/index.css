@@ -1,0 +1,168 @@
+ /* layout */
+ .flexFooter{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+/* Smartphone Portrait */
+body {
+    background-color: #ffffff;
+    color: #000000;
+} 
+
+/* rodape */
+footer{
+    background-color: rgb(226, 233, 138);
+    color: rgb(0, 0, 0);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#social{
+    margin: 0;
+}
+
+
+/* Smartphone Landscape */
+@media (min-width: 576px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #d3d3d3;
+        color: #000000;
+    }
+    
+}
+
+#social{
+    margin-bottom: 25px;
+}
+
+.flexFooter{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #d3d3d3;
+        color: #000000;
+    }
+    
+}
+
+/* Tablet Landscape */
+@media (min-width: 992px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #d3d3d3;
+        color: #000000;
+    }
+    
+}
+
+/* Desktop */
+@media (min-width: 1200px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+}
+
+.nav-container {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-line {
+    width: 100%;
+}
+
+.line {
+    color: #000;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.teste {
+    width: 10px;
+
+}
+
+.tv {
+    margin-left: 40%;
+}
+
+.pagamento {
+    margin-left: 34%;
+}
+
+.texto {
+    margin-left: 30%;
+}
+
+.d-grid {
+    margin-left: 0%;
+    margin-right: 50%;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .column img:hover {
+    opacity: 1;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .perfil {
+    text-align: center;
+    border-radius: 100px;
+  }
+
+  .contato {
+    text-align: center;
+  }
+
+  .titulo {
+    background-color: rgb(226, 93, 93);
+    display:inline-block
+  }
+  .redes {
+    background-color: rgb(241, 252, 97);
+    display:inline-block;
+    font-family: cursive;
+
+  }
+
+  .ajuda {
+    text-align: center;
+  }
